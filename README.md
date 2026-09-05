@@ -72,10 +72,12 @@ colors are strictly black, white and greys, there's nothing more to it, since it
 
 ## How to use this
 
-You have to paste the script into whatever you're using, The window will builds itself, then you add tabs and elements at the bottom of the script. You may use a loadstring
+You have to paste the script into whatever you're using, The window will builds itself, then you add tabs and elements at the bottom of the script. You may use a loadstring, DO NOTE I'M NOT RESPONSIBLE FOR WHATEVER YOU DO WITH THIS!
 
 ```lua
-local Main = Tab("Main")
+local Vanish = loadstring(game:HttpGet("https://raw.githubusercontent.com/M-Y-T-T/VANISH/refs/heads/main/source.lua"))()
+
+local Main = Vanish.Tab("Main")
 
 Main.Label("hello")
 
@@ -97,6 +99,12 @@ end)
 
 Main.Dropdown("Pick one", {"a", "b", "c"}, function(choice)
     print(choice)
+end)
+
+local Player = Vanish.Tab("Player")
+
+Player.Slider("WalkSpeed", 16, 200, 16, function(v)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
 end)
 ```
 <br>
