@@ -21,7 +21,6 @@
 
 ![roblox](https://img.shields.io/badge/roblox-lua-000000?style=for-the-badge&logo=roblox&logoColor=white)
 ![size](https://img.shields.io/badge/one%20file-~9kb-000000?style=for-the-badge)
-![style](https://img.shields.io/badge/theme-monochrome-000000?style=for-the-badge)
 ![license](https://img.shields.io/badge/use%20it-freely-000000?style=for-the-badge)
 
 <br>
